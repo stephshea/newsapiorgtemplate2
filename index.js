@@ -47,6 +47,10 @@ $(document).ready(function() {
 						var url = document.createElement('a');
 						url.setAttribute('href', data.articles[i].url);
 						url.innerHTML = data.articles[i].url;
+						// var urlToImage = document.createElement('IMG');					
+						// urlToImage.setAttribute('src', data.articles[i].urlToImage);
+						// urlToImage.innerHTML = data.articles[i].urlToImage;
+						// document.getElementById("headlines").appendChild(urlToImage);
 						document.getElementById("headlines").appendChild(headline);
 						document.getElementById("headlines").appendChild(description);
 				        document.getElementById("headlines").appendChild(url);

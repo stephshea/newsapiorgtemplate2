@@ -6,6 +6,11 @@
     font-size:calc(100% + 1vw);
 }
 
+#urlToImage {
+    width: 100px;
+    display: block;
+}
+
 .top {
     background-color: #000;
     color: #fff;
